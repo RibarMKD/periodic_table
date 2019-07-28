@@ -1,0 +1,514 @@
+body{
+    background-color: black;
+    line-height: 1.3;
+    overflow: hidden;
+}
+.btnSearch{
+    float:right;
+    border:none;
+    background-color: transparent;
+   }
+.fa-search{
+       color:gray;
+   }
+.circle{
+    color:rgb(163, 156, 156);
+    border:1px solid grey;
+    border-radius: 50%;
+    width:25px;
+    height: 25px;
+    background-color:transparent;
+  }
+.footer{
+    display:flex;
+    justify-content: space-between;
+  }
+.left{
+    margin-left:30px;
+  }
+.en{
+    font-size: 12px;
+    font-weight: bold;
+  }
+.insta{
+    background-image: linear-gradient(to top right, rgb(245, 182, 9), rgb(190, 42, 141) )
+  }
+.fb{
+    background-color:blue;
+  }
+.pad{
+    margin-left: -2px;
+}
+a{
+    color:white;
+  }
+a:hover{
+    color:white;
+  }
+.Element{
+    width: 5.3vw;
+    height: 9vh;
+    border: 1px solid black;
+    padding: 0px 2px;
+}
+.Element .hidden {
+    visibility: hidden;
+}
+.hov:hover{
+    transform: scale(1.1);
+}
+.number{
+    font-weight: bold;
+    font-size: 8px;
+}
+.shells{
+    font-size: 6px;
+}
+.symbol{
+    font-weight: bold;
+    font-size: 14px;
+}
+.name{
+    font-size: 8px;
+}
+.mass{
+    font-size:6px;
+}
+.padding5 {
+    margin-top: 35px;
+    display:grid;
+    grid-template-columns: repeat(17, auto) 1fr;
+    margin-bottom: -90px;
+}
+.element-1, .element-6, .element-7, .element-8, .element-15, .element-16, .element-34{
+    background-color: rgb(218, 112, 63);
+}
+.element-3, .element-11, .element-19, .element-37, .element-55, .element-87{
+    background-color: rgb(49, 177, 219);
+}
+.element-4, .element-12, .element-20, .element-38, .element-56, .element-88{
+    background-color: aquamarine;
+}
+.element-5, .element-14, .element-32, .element-33, .element-51, .element-52, .element-84{
+    background-color: lightpink;
+}
+.element-13, .element-31, .element-49, .element-50, .element-81, .element-82, .element-83, .element-113, .element-114, .element-115, .element-116{
+    background-color: rgb(238, 215, 218);
+}
+.element-2, .element-10, .element-18, .element-36, .element-54, .element-86, .element-118{
+    background-color: lightblue;
+}
+.element-89, .element-90, .element-91, .element-92, .element-93, .element-94, .element-95, .element-96, .element-97, .element-98, .element-99, .element-100, .element-101, .element-102, .element-103{
+    background-color: rgb(152, 163, 167);
+}
+.element-21, .element-22, .element-23, .element-24, .element-25, .element-26, .element-27, .element-28, .element-29, .element-30, .element-39, .element-40, .element-41, .element-42, .element-43, .element-44, .element-45, .element-46, .element-47, .element-48, .element-72, .element-73, .element-74, .element-75, .element-76, .element-77, .element-78, .element-79, .element-80, .element-104, .element-105, .element-106, .element-107, .element-108, .element-109, .element-110, .element-111, .element-112 {
+    background-color: white;
+}
+.element-57, .element-58, .element-59, .element-60, .element-61, .element-62, .element-63, .element-64, .element-65, .element-66, .element-67, .element-68, .element-69, .element-70, .element-71{
+    background-color: rgb(201, 198, 198);
+}
+.element-9, .element-17, .element-35, .element-53, .element-85, .element-117{
+    background-color: rgb(250, 250, 194);
+}
+.element-89, .element-90, .element-91, .element-92, .element-93, .element-94, .element-95, .element-96, .element-97, .element-98, .element-99, .element-100, .element-101, .element-102, .element-103{
+    grid-row-start: 9;
+    margin-bottom: 30px;
+}
+.element-57, .element-58, .element-59, .element-60, .element-61, .element-62, .element-63, .element-64, .element-65, .element-66, .element-67, .element-68, .element-69, .element-70, .element-71{
+    grid-row-start:8;
+    margin-top: 30px;
+}
+.element-2 {
+    grid-column-start: -2;
+}
+.element-5, .element-13, .element-81 {
+    grid-column-start: 13;
+}
+.element-72{
+    grid-column-start: 4;
+    grid-row-start: 6;
+}
+.element-71, .element-117, .element-103{
+    grid-column-start: 17;
+}
+.element-116, .element-70, .element-102{
+    grid-column-start: 16;
+}
+.element-115, .element-69, .element-101{
+    grid-column-start: 15;
+}
+.element-114, .element-68, .element-100{
+    grid-column-start: 14;
+}
+.element-113, .element-67, .element-99{
+    grid-column-start: 13;
+}
+.element-80, .element-112, .element-66, .element-98{
+    grid-column-start: 12;
+}
+.element-79, .element-111, .element-65, .element-97{
+    grid-column-start: 11;
+}
+.element-78, .element-110, .element-64, .element-96{
+    grid-column-start: 10;
+}
+.element-77, .element-109, .element-63, .element-95{
+    grid-column-start: 9;
+}
+.element-76, .element-108, .element-62, .element-94{
+    grid-column-start: 8;
+}
+.element-75, .element-107, .element-61, .element-93{
+    grid-column-start: 7;
+}
+.element-74, .element-106, .element-60, .element-92{
+    grid-column-start: 6;
+}
+.element-91, .element-59, .element-105, .element-73{
+    grid-column-start: 5;
+}
+.element-58, .element-104, .element-90{
+    grid-column-start: 4;
+}
+.element-57, .element-89{
+    grid-column-start: 3;
+}
+.lan{
+    padding-top: 5px;
+    grid-column-start: 3;
+    grid-row-start: 6;
+    color: white;
+}
+.act{
+    padding-top: 5px;
+    grid-column-start: 3;
+    grid-row-start: 7;
+    color: white; 
+}
+.text-small{
+    font-size:10px;
+}
+.legend{
+    grid-column-start: 3;
+    grid-row-start: 1;
+    grid-column-end: 13;
+    grid-row-end: 4;
+    color: rgb(152, 163, 167);
+    padding-top: 20px;
+}
+.AL{
+    color: rgb(49, 177, 219);
+}
+.AEM{
+    color: aquamarine;
+}
+.L{
+    color: rgb(201, 198, 198);
+}
+.AC{
+    color: rgb(152, 163, 167);
+    /* padding-top: 10px; */
+}
+.OM{
+    color: rgb(238, 215, 218);
+}
+.M{
+ color: lightpink;   
+}
+.NM{
+    color:rgb(218, 112, 63);
+}
+.H{
+    color:rgb(250, 250, 194);
+}
+.NB{
+    color:lightblue;
+}
+.padding-left{
+    padding-left: 25px;
+}
+.font{
+    font-size: 10px;
+}
+.bor{
+    border-top: 1px solid gray;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.btnData{
+    color: lightgray;
+    border:none;
+    background-color: transparent;
+}
+.numbers{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+}
+.btn-1{
+    position: absolute;
+    top:10px;
+    left: 15px;
+}
+.btn-2{
+    position:absolute;
+    top: 55px;
+    left: 70px;
+}
+.btn-3{
+    position: absolute;
+    top: 150px;
+    left: 130px;
+}
+.btn-4{
+    position: absolute;
+    top: 150px;
+    left: 187px;
+}
+.btn-5{
+    position: absolute;
+    top: 150px;
+    left: 245px;
+}
+.btn-6{
+    position: absolute;
+    top: 150px;
+    left: 305px;
+}
+.btn-7{
+    position: absolute;
+    top: 150px;
+    left: 360px;
+}
+.btn-8{
+    position: absolute;
+    top: 150px;
+    left: 420px;
+}
+.btn-9{
+    position: absolute;
+    top: 150px;
+    left: 475px;
+}
+.btn-10{
+    position: absolute;
+    top: 150px;
+    left: 530px;
+}
+.btn-11{
+    position: absolute;
+    top: 150px;
+    left: 587px;
+}
+.btn-12{
+    position: absolute;
+    top: 150px;
+    left: 645px;
+}
+.btn-13{
+    position: absolute;
+    top: 55px;
+    left: 705px;
+}
+.btn-14{
+    position: absolute;
+    top:55px;
+    left:760px;
+}
+.btn-15{
+    position: absolute;
+    top: 55px;
+    left: 820px;
+}
+.btn-16{
+    position: absolute;
+    top: 55px;
+    left: 875px;
+}
+.btn-17{
+    position: absolute;
+    top: 55px;
+    left: 935px;
+}
+.btn-18{
+    position: absolute;
+    top: 10px;
+    left: 995px;
+}
+.footerLevo{
+    grid-column-start: 1;
+    grid-row-end: 10;
+}
+.footerDesno{
+    grid-column-start: 18;
+    grid-row-start: 9;
+}
+.element-1-1, .element-2-2 , .element-3-3, .element-4-4 , .element-5-5, .element-6-6, .element-7-7, .element-8-8, .element-9-9, .element-10-10, .element-11-11, .element-12-12, .element-13-13, .element-14-14, .element-15-15, .element-16-16, .element-17-17, .element-18-18{
+    transform: scale(1.1);
+}
+/* {Main} css */
+.Name {
+    width: 25%;  
+}
+.square{
+    border: 1px solid white;
+    width: 49%;
+    height: 23vh;
+    color : white;
+}
+.fontForSquare {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+}
+.margin0 {
+    margin-bottom: 0px !important;
+}
+.unordered {
+    list-style: none;
+    padding: 0;
+}
+.colodwhite{
+    color: white;
+}
+.wraperImage{
+    background-color: white;
+    width: 70px;
+    height: 70px;
+    margin-left: 10px;
+}
+.imgName{
+    width: 70px;
+    height: 70px;
+    position: 'center';
+}
+.Main {
+    overflow: hidden;
+}
+.nameOfElement{
+    color: white;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 'bold';
+}
+.ulList{
+    margin-top: 10px;
+}
+.Text {
+    width: 36%;
+    margin-left: 50px;
+}
+.btnText {
+    border: none;
+    background-color: transparent;
+    color: white;
+}
+.textText{
+    color:white;
+    margin-top: 45px;
+}
+.textPDF{
+    color: white;
+}
+.SearchMain{
+    padding: 10px;
+    overflow: scroll;
+    width: 32%;
+    margin-left: 125px;
+    color: white;
+    height: 88vh;
+ }
+ .ButtonX{
+     margin: 20px 10px;
+ }
+ .btnX{
+     background-color: transparent;
+     border: 1px solid gray;
+     color: gray;
+ }
+ .widthPic, .carousel{
+     width: 30%;
+ }
+ .inputSearch{
+     width: 100%;
+     background-color: rgb(54, 53, 53);
+     border: none;
+     margin-bottom: 20px;
+     text-align: center;
+ }
+ .buttonModal {
+     float: right;
+     background-color: transparent;
+     border: 1px solid gray;
+     color: white;
+     margin-bottom: 5px;
+ }
+ .ReactModal_Overlay{
+     background-color: transparent !important;
+}
+iframe {
+    width: 100%;
+    height: calc(100% - 30px);
+}
+.FooterLeft {
+    width: 5%;
+    float: left;
+    margin-left: 30px;
+}
+.FooterRight {
+    width: 6%;
+    float: right;
+}
+.marginplus {
+    margin-top: 5px;
+}
+.About img {
+    position: relative;
+    top: 60px;
+    width: 100%;
+    height: 90%;
+}
+.textAboutDiv{
+    width: 50%;
+}
+.textAbout{
+    font-weight: bold;
+    color: rgb(218, 206, 104);
+}
+.colorWhite{
+    color:white;
+}
+.bPcRQP {
+    width: 70% !important;
+}
+.LBGII{
+    color: white;
+}
+.sc-bwzfXH{
+    border: 1px solid grey !important;
+}
+.iRISHI{
+    color: white !important;
+    background-color: black !important; 
+    margin-bottom: 0 !important;
+}
+.cqaNcS{
+    padding: 0 !important;
+}
+.ui{
+    float: right;
+    height: 30px;
+    margin-top: 5px;
+ }
+ #search-site{
+    background-color: black;
+    width: 200px;
+    height: 10px;
+    font-size: 12px;
+ }
+ .fa-search{
+    margin-right: 30px;
+    margin-top: 5px;
+ }
